@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+body {
+  background-color: rgb(26, 38, 61);
+}
+
+.form-register {
+  width: 400px; 
+  background: #24303cc2;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px rgba(0, 0, 0, 0.77);
+}
+
+.form-register h4 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-bottom: 1px solid silver;
+  padding: 0 0 20px 0;
+}
+
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 10px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+

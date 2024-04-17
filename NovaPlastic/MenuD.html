@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Menu</title>
+	<link rel="stylesheet" href="StyleMenu.css">
+	<link rel="shortcut icon" href="Novaplastic.png" type="image/x-icon">
+</head>
+<body>
+	<div id="ww_805b84bae3925" v='1.20' loc='auto' a='{"t":"responsive","lang":"es","ids":[],"cl_bkg":"#616161","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722","sl_tof":"7","sl_sot":"celsius","sl_ics":"one_a","font":"Arial","cl_odd":"#0000000a"}'><a href="https://weatherwidget.org/es/" id="ww_805b84bae3925_u" target="_blank">Widget tiempo HTML</a> para el sitio web de Weatherwidget.org</div><script async src="https://srv1.weatherwidget.org/js/?id=ww_805b84bae3925"></script>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+	<header class="header">
+		<div class="container">
+		<div class="btn-menu">
+			<br>
+			<label for="btn-menu">☰</label>
+		</div>
+			<div class="logo">
+				<br>
+				<h1>NovaPlastic S.A. de C.V.</h1>
+			</div>
+			<nav class="menu">
+				<br>
+				<a href="Login.php">Cerrar Sesión</a>
+				<a href="RegistroDirector.php">Registrar Usuario</a>
+                <br><br><br><br><br><br>
+                <p class="puesto">Director</p>
+			</nav>
+	</header>
+	<div class="capa"></div>
+
+<input type="checkbox" id="btn-menu">
+<div class="container-menu">
+	<div class="cont-menu">
+		<nav>
+			<a href="VentasRegistroD.php">Empresas</a>
+			<a href="VentasD.php">Ventas</a>
+		</nav>
+		<label for="btn-menu">✖️</label>
+	</div>
+</div>
+	<br><br><br>
+	<div class="hora">
+	<a href="https://time.is/Mexico_City" id="time_is_link" rel="nofollow" style="font-size:18px;color:#fff">Hora local:</a>
+	<span id="Mexico_City_z159" style="font-size:18px;color:#fff"></span>
+	<script src="//widget.time.is/es.js"></script>
+	<script>
+	time_is_widget.init({Mexico_City_z159:{template:"TIME<br>DATE", time_format:"12hours:minutes:secondsAMPM", date_format:"dayname, monthname dnum, year"}});
+	</script>
+	</div>
+</body>
+</html>
